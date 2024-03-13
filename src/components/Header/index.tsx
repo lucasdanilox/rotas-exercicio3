@@ -11,13 +11,13 @@ export default function Header() {
                     <h1>MeuSite</h1>
                 </Link>
                 <nav className="navbar">
-                    <NavLink to="/" className="menu-item">
+                    <NavLink to="/" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>
                         Início
                     </NavLink>
-                    <NavLink to="/promotion" className="menu-item">
+                    <NavLink to="/promotion" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>
                         Promoção
                     </NavLink>
-                    <NavLink to="/enrollment" className="menu-item">
+                    <NavLink to="/enrollment" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>
                         Participar
                     </NavLink>
                 </nav>
