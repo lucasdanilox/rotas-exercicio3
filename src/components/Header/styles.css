@@ -1,0 +1,31 @@
+header{
+    height: 80px;
+    background-color: var(--color-header-primary);
+}
+
+.title-name{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--color-font-primary);
+}
+
+.text-align{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.navbar{
+    display: flex;
+    font-weight: 400;
+}
+
+.header-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item{
+    margin-left: 20px;
+}
