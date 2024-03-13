@@ -1,6 +1,6 @@
-# Exercício: Rotas
+# Exercício: Rotas III
 
-![Rotas](https://i.postimg.cc/Df672d1j/Promo-o-Google-Chrome-2024-03-12-18-18-13.gif)
+![Rotas](https://i.postimg.cc/85jhX5YQ/Promo-o-Google-Chrome-2024-03-13-19-01-37.gif)
 
 ## Tecnologias Utilizadas
 
