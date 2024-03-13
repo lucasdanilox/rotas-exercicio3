@@ -12,7 +12,8 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} >
-                    <Route index element={<HomeBody />} />
+                    <Route index element={<Navigate to="/home" />} />
+                    <Route path="home" element={<HomeBody />} />
                     <Route path="promotion" element={<Promotion />} />
                     <Route path="enrollment" element={<Enrollment />} />
                     <Route path="*" element={<Navigate to="/" />} />
